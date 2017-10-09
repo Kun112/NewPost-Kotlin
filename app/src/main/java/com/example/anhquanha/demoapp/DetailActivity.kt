@@ -20,7 +20,7 @@ class DetailActivity : AppCompatActivity() {
 
         userIdtv.text = userName
         bodytv.text = content
-        cmttv.text = cmtCount.toString()
+        cmttv.text = "Number of comments: " + cmtCount.toString()
     }
 
     override fun onBackPressed() {
